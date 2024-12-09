@@ -4,6 +4,7 @@ import { HStack, VStack, Text, Stack } from "@chakra-ui/react";
 import bgImage from "../components/kolyakolya.webp";
 
 export const Home: React.FC = () => {
+    //deploy
     const [complete, setComplete] = useState(false);
     const [remainingDays, setRemainingDays] = useState(0);
     const [remainingHours, setRemainingHours] = useState(0);
